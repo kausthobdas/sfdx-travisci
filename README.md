@@ -1,4 +1,4 @@
-# sfdx-travisci [![Build Status](https://travis-ci.org/forcedotcom/sfdx-travisci.svg?branch=master)](https://travis-ci.org/forcedotcom/sfdx-travisci)
+# sfdx-travisci [![Build Status](https://travis-ci.org/kausthobdas/sfdx-travisci.svg?branch=master)](https://travis-ci.org/kausthobdas/sfdx-travisci)
 
 For a fully guided walk through of setting up and configuring this sample, see the [Continuous Integration Using Salesforce DX](https://trailhead.salesforce.com/modules/sfdx_travis_ci) Trailhead module.
 
@@ -50,5 +50,3 @@ If you find any issues or opportunities for improving this repository, fix them!
 ## Reporting Issues ###
 
 If you find any issues with this demo that you can't fix, feel free to report them in the [issues](https://github.com/forcedotcom/sfdx-travisci/issues) section of this repository.
-
-Test
