@@ -24,14 +24,7 @@ script:
 	- sfdx force:apex:test:run -u ciorg --wait 10
 	- sfdx force:org:delete -u ciorg -p
 notifications:
-  slack: sidekyk:STATtUBxCpF44HZG8G9L9x2E#build-details
-  	on_pull_requests: false
-  	template:
-    	- "%{repository_slug} (%{commit}) : %{message}"
-    	- "Build details: %{build_url}"
-
-    slack: sidekyk:STATtUBxCpF44HZG8G9L9x2E#master-pull-requests
-  	on_pull_requests: true
+  slack: sidekyk:STATtUBxCpF44HZG8G9L9x2E
   	template:
     	- "%{repository_slug} (%{commit}) : %{message}"
     	- "Build details: %{build_url}"
