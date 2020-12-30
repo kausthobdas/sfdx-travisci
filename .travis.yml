@@ -25,3 +25,5 @@ script:
 - sfdx force:org:delete -u ciorg -p
 notifications:
   slack: sidekyk:STATtUBxCpF44HZG8G9L9x2E
+  template:
+    - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository_slug}@%{branch} by %{author} %{result} in %{duration}"
