@@ -1,11 +1,20 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "SideKyk",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "SideKyk": "0Ho4x000000wk9BCAQ",
+        "SideKyk@0.1.0-1": "04t4x000000qE0OAAU",
+        "SideKyk@0.1.0-2": "04t4x000000qE0TAAU",
+        "SideKyk@0.1.0-3": "04t4x000000qE0YAAU"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
 }
